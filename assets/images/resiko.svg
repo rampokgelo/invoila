@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="32px" viewBox="0 0 36 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>resiko</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Pendanaan" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pendanaan---Desktop-HD" transform="translate(-767.000000, -1549.000000)">
+            <g id="Benefit-meminjam" transform="translate(0.000000, 1331.000000)">
+                <g id="sekilas-copy-2">
+                    <g id="Group-9" transform="translate(280.000000, 189.000000)">
+                        <g id="resiko" transform="translate(460.000000, 0.000000)">
+                            <circle id="Oval" cx="45" cy="45" r="45"></circle>
+                            <g id="002-danger" transform="translate(27.000000, 29.000000)" fill-rule="nonzero" fill="#FE8B0F">
+                                <path d="M35.7835414,29.9907524 L19.0976095,0.644430243 C18.8708272,0.245742733 18.4519568,0 17.9983922,0 C17.5448276,0 17.1259573,0.245742733 16.899175,0.644430243 L0.170086736,30.0667093 C-0.0566955786,30.4653968 -0.0566955786,30.9568822 0.170086736,31.3555698 C0.39686905,31.7542573 0.81590861,32 1.269304,32 L34.7273112,32 C34.7284959,32 34.7298498,32 34.730696,32 C35.4318595,32 36,31.423106 36,30.7111395 C36,30.4442595 35.9201185,30.1964546 35.7835414,29.9907524 Z M3.46773852,29.422279 L17.998223,3.86658146 L32.5287074,29.422279 L3.46773852,29.422279 Z" id="Shape"></path>
+                                <path d="M17,11.2360704 L17,21.7639296 C17,22.4467349 17.6714,23 18.5,23 C19.3286,23 20,22.4467349 20,21.7639296 L20,11.2360704 C20,10.5532651 19.3286,10 18.5,10 C17.6714,10 17,10.5534299 17,11.2360704 Z" id="Shape"></path>
+                                <circle id="Oval" cx="18.5" cy="25.5" r="1.5"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
