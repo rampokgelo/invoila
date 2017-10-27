@@ -18,7 +18,7 @@
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed sidenav-toggle">
-              <span class="sr-only">Toggle navigation</span>
+              <!-- <span class="sr-only">Toggle navigation</span> -->
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -27,12 +27,13 @@
           </div>
           <div class="navbar-collapse sidenav-menu">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#" class="active">Beranda</a></li>
-              <li><a href="#" class="">Pinjaman Bisnis </a></li>
-              <li><a href="#" class="">Pendanaan</a></li>
-              <li><a href="#" class="">Statistik</a></li>
-              <li><a href="#" class="">Cara Kerja</a></li>
-              <li><a href="#" class="">Tentang Kami</a></li>
+              <li><a href="index.php" class="active">Beranda</a></li>
+              <li><a href="pinjambisnis.php" class="">Pinjaman Bisnis </a></li>
+              <li><a href="pendanaan.php" class="">Pendanaan</a></li>
+              <li><a href="statistik.php" class="">Statistik</a></li>
+              <li><a href="carakerja.php" class="">Cara Kerja</a></li>
+              <li><a href="FAQ.php" class="">FAQ</a></li>
+              <li><a href="tentankami.php" class="">Tentang Kami</a></li>
               <li class="hidden-xs hidden-sm"><span class="divider"></span></li>
               <li class="hidden-xs hidden-sm">
                 <button type="button" class="btn btn-primary navbar-btn">Masuk &sol; Daftar</button>

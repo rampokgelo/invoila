@@ -8,7 +8,7 @@
   width: 100%;
   background-color: white;
   z-index: 1029;
-  padding: 0 ($grid-gutter-width / 2) ($grid-gutter-width / 2) ;
+  padding: 0 ($grid-gutter-width / 2) ($grid-gutter-width / 3) ;
   @include transition(all .3s);
   @include translate(0,0);
   @media (max-width: $screen-xs-max) {
@@ -48,7 +48,7 @@
 .wrapper{
   padding-top: 60px;
   @media (max-width: $screen-xs-max) {
-    padding-top: 119px;
+    padding-top: 116px;
   }
 }
 .container-body{
@@ -60,35 +60,47 @@
 .banner-hero{
   position: relative;
   .banner-slider{
-    .slider-item{
-      position: relative;
-      height: 750px;
-      .banner-caption{
-        padding: ($grid-gutter-width / 2) $grid-gutter-width;
-        width: 780px;
-        left: 0;
-        right: 0;
-        margin: auto;
-        background: rgba(0,0,0,.3);
-        position: absolute;
-        bottom: 60px;
-        text-align: center;
-        color: white;
-        >h2{
-          font-size: 36px;
-          font-weight: 400;
-        }
-        >p{
-          margin-top: $grid-gutter-width;
-          margin-bottom: $grid-gutter-width * 2;
-        }
-      }
-    }
     .slick-dots{
       bottom: 20px;
     }
     &.slick-dotted{
       margin-bottom: 0;
+    }
+  }
+  .slider-item{
+    position: relative;
+    height: 740px;
+    .banner-caption{
+      padding: ($grid-gutter-width / 2) $grid-gutter-width;
+      width: 780px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      background: rgba(0,0,0,.3);
+      position: absolute;
+      bottom: 60px;
+      text-align: center;
+      color: white;
+      >h2{
+        font-size: 36px;
+        font-weight: 400;
+      }
+      >p{
+        margin-top: $grid-gutter-width;
+        margin-bottom: $grid-gutter-width * 2;
+      }
+      &.banner-form{
+        width: 540px;
+        position: static;
+        >p{
+          margin-top: auto;
+          margin-bottom: auto;
+        }
+      }
+    }
+    .form-hero{
+      padding: $grid-gutter-width / 2;
+      background: $brand-secondary-alpha;
     }
   }
   .banner-hero-nav{
@@ -107,22 +119,20 @@
     }
   }
   @media (max-width: $screen-xs-max) {
-    .banner-slider{
-      .slider-item{
-        position: relative;
-        height: 450px;
-        padding: $grid-gutter-width;
-        .banner-caption{
-          padding: ($grid-gutter-width / 2) $grid-gutter-width;
-          width: 75%;
-          text-align: center;
-          >h2{
-            font-size: 24px;
-          }
-          >p{
-            margin-top: $grid-gutter-width;
-            margin-bottom: $grid-gutter-width * 2;
-          }
+    .slider-item{
+      position: relative;
+      height: 500px;
+      padding: $grid-gutter-width;
+      .banner-caption{
+        padding: ($grid-gutter-width / 2) $grid-gutter-width;
+        width: 75%;
+        text-align: center;
+        >h2{
+          font-size: 22px;
+        }
+        >p{
+          margin-top: $grid-gutter-width;
+          margin-bottom: $grid-gutter-width * 2;
         }
       }
     }
@@ -224,8 +234,6 @@
     overflow-x: auto;
     white-space: nowrap;
     position: relative;
-    margin-left: 0;
-    margin-right: 0;
     >img{
       float: none;
     }

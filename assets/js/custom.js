@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $(".sidenav-toggle").on("click", function() {
+    $(this).toggleClass('close-toggle');
     $('.sidenav-menu').toggleClass('show');
   });
   $('.banner-slider').slick({
@@ -106,4 +107,9 @@ $(document).ready(function() {
     }
 
   }, 250);
+
+
+  $("#ex8").slider({
+  	tooltip: 'always'
+  });
 });
