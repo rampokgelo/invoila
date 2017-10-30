@@ -90,7 +90,12 @@ mark,
 // Alignment
 .text-left           { text-align: left; }
 .text-right          { text-align: right; }
-.text-center         { text-align: center; }
+.text-center         {
+  text-align: center;
+  >.img-responsive{
+    margin:auto;
+  }
+}
 .text-justify        { text-align: justify; }
 .text-nowrap         { white-space: nowrap; }
 
@@ -115,6 +120,7 @@ mark,
 
 @include text-emphasis-variant('.text-danger', $state-danger-text);
 @include text-emphasis-variant('.text-inverse', white);
+@include text-emphasis-variant('.text-body', $text-color);
 // Contextual backgrounds
 // For now we'll leave these alongside the text classes until v4 when we can
 // safely shift things around (per SemVer rules).
@@ -153,6 +159,7 @@ ul,
 ol {
   margin-top: 0;
   margin-bottom: ($line-height-computed / 2);
+  padding-left: 15px;
   ul,
   ol {
     margin-bottom: 0;

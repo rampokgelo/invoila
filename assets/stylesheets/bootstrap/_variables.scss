@@ -13,10 +13,13 @@ $gray-darker:            lighten($gray-base, 13.5%) !default; // #222
 $gray-dark:              lighten($gray-base, 20%) !default;   // #333
 $gray:                   lighten($gray-base, 33.5%) !default; // #555
 $gray-light:             lighten($gray-base, 46.7%) !default; // #777
+$gray-lighten:             lighten($gray-base, 70%) !default; // #777
 $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
 
 $brand-primary:         #FE8B0F !default; // #337ab7
 $brand-primary-lighten:  #FEF8EF !default;
+$brand-primary-light:  #FFC583 !default;
+
 $brand-secondary:         #18375C !default;
 $brand-secondary-alpha:         rgba(24,55,92,.8) !default;
 $brand-success:         #5cb85c !default;
@@ -455,8 +458,8 @@ $nav-pills-active-link-hover-color:         $component-active-color !default;
 //
 //##
 
-$pagination-color:                     $link-color !default;
-$pagination-bg:                        #fff !default;
+$pagination-color:                     $gray !default;
+$pagination-bg:                        $gray-lighter !default;
 $pagination-border:                    #ddd !default;
 
 $pagination-hover-color:               $link-hover-color !default;
@@ -654,11 +657,11 @@ $alert-danger-border:         $state-danger-border !default;
 //##
 
 //** Background color of the whole progress component
-$progress-bg:                 #f5f5f5 !default;
+$progress-bg:                 $brand-secondary !default;
 //** Progress bar text color
 $progress-bar-color:          #fff !default;
 //** Variable for setting rounded corners on progress bar.
-$progress-border-radius:      $border-radius-base !default;
+$progress-border-radius:      10px !default;
 
 //** Default progress bar color
 $progress-bar-bg:             $brand-primary !default;
@@ -714,7 +717,7 @@ $panel-bg:                    #fff !default;
 $panel-body-padding:          15px !default;
 $panel-heading-padding:       10px 15px !default;
 $panel-footer-padding:        $panel-heading-padding !default;
-$panel-border-radius:         $border-radius-base !default;
+$panel-border-radius:         0 !default;
 
 //** Border color for elements within panels
 $panel-inner-border:          #ddd !default;

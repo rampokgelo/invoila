@@ -104,15 +104,60 @@ th {
     }
   }
 }
-
-
+.table-unbordered {
+  border: none;
+  > thead,
+  > tbody,
+  > tfoot {
+    > tr {
+      > th,
+      > td {
+        border: none;
+      }
+    }
+  }
+  > thead > tr {
+    > th,
+    > td {
+      border-bottom-width: 2px;
+    }
+  }
+}
 // Zebra-striping
 //
 // Default zebra-stripe styles (alternating gray and transparent backgrounds)
 
 .table-striped {
+  > thead {
+      background-color: $brand-primary-light;
+      position: relative;
+      &:after{
+        content: '';
+        position: absolute;
+        //bottom: -10px;
+        display: block;
+        // left: 0;
+        // right: 0;
+        width: calc(100% - 30px);
+        height: 10px;
+        @include gradient-vertical(rgba(0,0,0,.3), rgba(0,0,0,0));
+        //@include box-shadow(0 2px 5px rgba(0,0,0,.3));
+      }
+      >tr{
+
+        th{
+          border-bottom: none;
+
+        }
+      }
+  }
+
+  > tbody > tr {
+      background-color: #F7FFF4;
+  }
   > tbody > tr:nth-of-type(odd) {
-    background-color: $table-bg-accent;
+    //background-color: $table-bg-accent;
+    background-color: $gray-lighten;
   }
 }
 
@@ -174,10 +219,10 @@ table {
 
   @media screen and (max-width: $screen-xs-max) {
     width: 100%;
-    margin-bottom: ($line-height-computed * 0.75);
+    //margin-bottom: ($line-height-computed * 0.75);
     overflow-y: hidden;
     -ms-overflow-style: -ms-autohiding-scrollbar;
-    border: 1px solid $table-border-color;
+    //border: 1px solid $table-border-color;
 
     // Tighten up spacing
     > .table {

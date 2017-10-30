@@ -8,19 +8,19 @@
               <a href="#">FAQ</a>
             </li>
             <li>
-              <a href="#">Tentang Kami</a>
+              <a href="tentangkami.php">Tentang Kami</a>
             </li>
           </ul>
           <h5>Legal</h5>
           <ul class="list-unstyled list-menu">
             <li>
-              <a href="#">Persyaratan Pelayanan</a>
+              <a href="faq.php">Persyaratan Pelayanan</a>
             </li>
             <li>
-              <a href="#">Kebijakan Privasi</a>
+              <a href="faq.php">Kebijakan Privasi</a>
             </li>
             <li>
-              <a href="#">Disclaimer</a>
+              <a href="faq.php">Disclaimer</a>
             </li>
           </ul>
         </div>
@@ -28,10 +28,10 @@
           <h5>Produk</h5>
           <ul class="list-unstyled list-menu">
             <li>
-              <a href="#">Pinjaman Bisnis</a>
+              <a href="pinjambisnis.php">Pinjaman Bisnis</a>
             </li>
             <li>
-              <a href="#">Pendanaan</a>
+              <a href="pendanaan.php">Pendanaan</a>
             </li>
           </ul>
         </div>
@@ -44,19 +44,19 @@
               <a href="#">FAQ</a>
             </li>
             <li>
-              <a href="#">Tentang Kami</a>
+              <a href="tentangkami.php">Tentang Kami</a>
             </li>
           </ul>
           <h5><span class="text-inverse" type="button" data-toggle="collapse" data-target="#legal">Legal</span></h5>
           <ul class="list-unstyled list-menu collapse" id="legal">
             <li>
-              <a href="#">Persyaratan Pelayanan</a>
+              <a href="faq.php">Persyaratan Pelayanan</a>
             </li>
             <li>
-              <a href="#">Kebijakan Privasi</a>
+              <a href="faq.php">Kebijakan Privasi</a>
             </li>
             <li>
-              <a href="#">Disclaimer</a>
+              <a href="faq.php">Disclaimer</a>
             </li>
           </ul>
           <h5><span class="text-inverse" type="button" data-toggle="collapse" data-target="#produk">Produk</span></h5>

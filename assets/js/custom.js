@@ -37,7 +37,15 @@ $(document).ready(function() {
     //   }
     // ]
   });
-
+  $('.testi-carousel').slick({
+    dots: true,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    prevArrow: $('.prev-testi'),
+    nextArrow: $('.next-testi')
+  });
   // // Hide Header on on scroll down
   // var didScroll;
   // var lastScrollTop = 0;
@@ -110,6 +118,10 @@ $(document).ready(function() {
 
 
   $("#ex8").slider({
-  	tooltip: 'always'
+    tooltip: 'always',
+    tooltip_position: 'bottom'
   });
+  $('.accordion-btn').on('click tap', function() {
+    $(this).parents('.accordion-numbering').find('.number-item').toggleClass('active');
+  })
 });

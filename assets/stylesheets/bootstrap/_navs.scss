@@ -128,6 +128,68 @@
     @extend .nav-justified;
     @extend .nav-tabs-justified;
   }
+  &.nav-tabs-list{
+    >li{
+      border-bottom: solid 1px $brand-primary;
+      position: relative;
+      &:before{
+        content:'';
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        background-color: $brand-primary;
+        position: absolute;
+        left: 0;
+        top: 12px;
+        border-radius: 50%;
+      }
+
+      &.active{
+        &:after{
+          content:'\e923';
+          font-family:'invoila';
+          color: $brand-primary;
+          position: absolute;
+          right: 0;
+          top: 11px;
+        }
+      }
+      a{
+        color: $text-color;
+        padding-left: 25px;
+        background-color: transparent;
+        opacity: .5;
+        &:hover,&:focus{
+          color: $text-color;
+          background: transparent;
+        }
+      }
+      &.active{
+        a{
+          opacity: 1;
+          font-weight: bold;
+          &:after{
+            display: none;
+          }
+        }
+
+      }
+    }
+    @media (max-width: $screen-xs-max) {
+      overflow-x: auto;
+      white-space: nowrap;
+      padding-bottom: 20px;
+      li{
+        display: inline-block;
+        width: auto;
+        &.active{
+          &:after{
+            @include rotate(90deg);
+          }
+        }
+      }
+    }
+  }
 }
 
 
@@ -214,6 +276,16 @@
       }
     }
   }
+  &.nav-responsive{
+    @media (max-width: $screen-xs-max) {
+      overflow-x: auto;
+      white-space: nowrap;
+      padding-bottom: 20px;
+      > li {
+        width: auto;
+      }
+    }
+  }
 }
 
 // Move borders to anchors instead of bottom of list
@@ -258,6 +330,9 @@
   }
   > .active {
     display: block;
+  }
+  &.divider-left-res{
+    padding-left: $grid-gutter-width / 2;
   }
 }
 
