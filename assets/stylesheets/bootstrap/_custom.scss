@@ -1,15 +1,20 @@
 .nav-main {
   border: none;
+  >.wrapper-nav-main{
+    background: white;
+    position: relative;
+    z-index: 9999;
+  }
 }
 
 .nav-signup-m {
   display: none;
-  position: fixed;
-  top: $navbar-height;
+  position: relative;
+  //top: $navbar-height;
   width: 100%;
   background-color: white;
-  z-index: 1029;
-  padding: 0 ($grid-gutter-width / 2) ($grid-gutter-width / 3);
+  //z-index: 1029;
+  padding: 0 0 ($grid-gutter-width / 3)  ;//($grid-gutter-width / 3)
   @include transition(all .3s);
   @include translate(0,0);
   @media (max-width: $screen-xs-max) {
@@ -17,10 +22,11 @@
   }
 
   &.hide-nav {
+    position: absolute;
     @include translate(0,-100%);
   }
 
-  > .divider-nav {
+ .divider-nav {
     height: 1px;
     background-color: $gray-base;
     margin-bottom: ($grid-gutter-width / 2 - 5);
@@ -198,13 +204,13 @@
       padding: $grid-gutter-width / 2;
 
       .banner-caption {
-        padding: ($grid-gutter-width / 2) $grid-gutter-width;
+        padding: ($grid-gutter-width / 2);
         width: 75%;
         text-align: center;
 
          > h2,
         > h1 {
-          font-size: 22px;
+          font-size: 18px;
         }
 
         > p {
@@ -238,10 +244,12 @@
     .banner-hero-nav {
       @include translate(0,50%);
       bottom: 50%;
-
       .container {
         padding-left: 0;
         padding-right: 0;
+        .btn{
+          padding: $grid-gutter-width / 6;
+        }
       }
     }
   }
@@ -350,19 +358,30 @@
 
 .partner-logo {
   text-align: center;
-  margin-left: -$grid-gutter-width /2;
-  margin-right: -$grid-gutter-width /2;
+  margin-left: -$grid-gutter-width /3;
+  margin-right: -$grid-gutter-width /3;
 
-  > img {
+  img {
     display: inline-block;
-    padding-left: $grid-gutter-width /2;
-    padding-right: $grid-gutter-width /2;
+    padding-left: $grid-gutter-width /3;
+    padding-right: $grid-gutter-width /3;
+    padding-bottom: $grid-gutter-width /3;
   }
   @media (max-width: $screen-xs-max) {
-    overflow-x: auto;
+    overflow-x: scroll;
     white-space: nowrap;
     position: relative;
-
+    margin-left: auto;
+    margin-right: auto;
+    // &::-webkit-scrollbar {
+    //     -webkit-appearance: none;
+    //     width: 3px;
+    // }
+    // &::-webkit-scrollbar-thumb {
+    //     border-radius: 8px;
+    //     background-color: rgba(0,0,0,.3);
+    //     -webkit-box-shadow: 0 0 1px rgba(255,255,255,.3);
+    // }
     > img {
       float: none;
     }
@@ -564,7 +583,7 @@
     color: $text-color;
     text-align: center;
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: 25%;
     background-position: left bottom;
     .value-money{
       color: $brand-secondary;

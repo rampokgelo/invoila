@@ -123,5 +123,7 @@ $(document).ready(function() {
   });
   $('.accordion-btn').on('click tap', function() {
     $(this).parents('.accordion-numbering').find('.number-item').toggleClass('active');
-  })
+  });
+
+  $('.partner-logo').jScrollPane();
 });
