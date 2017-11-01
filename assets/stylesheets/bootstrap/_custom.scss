@@ -124,10 +124,9 @@
       text-align: center;
       color: white;
 
-       > h2,
+      > h2,
       > h1 {
         font-size: 36px;
-        font-weight: 400;
       }
 
       > p {
@@ -160,10 +159,9 @@
       text-align: center;
       color: white;
 
-       > h2,
+      > h2,
       > h1 {
         font-size: 36px;
-        font-weight: 400;
       }
       @media (max-width: $screen-xs-max) {
         width: calc(100% - 30px);
