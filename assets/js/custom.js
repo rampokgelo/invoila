@@ -121,9 +121,9 @@ $(document).ready(function() {
     tooltip: 'always',
     tooltip_position: 'bottom'
   });
-  $('.accordion-btn').on('click tap', function() {
-    $(this).parents('.accordion-numbering').find('.number-item').toggleClass('active');
-  });
+  // $('.accordion-btn').on('click tap', function() {
+  //   $(this).parents('.accordion-numbering').find('.number-item').toggleClass('active');
+  // });
 
   $('.partner-logo').jScrollPane();
 });

@@ -86,8 +86,11 @@ $slick-opacity-not-active: 0.25 !default;
             opacity: $slick-opacity-on-hover;
         }
     }
-    &.slick-disabled:before {
-        opacity: $slick-opacity-not-active;
+    &.slick-disabled{
+      opacity: 0.3;
+      &:before {
+          opacity: $slick-opacity-not-active;
+      }
     }
     &:before {
         font-family: $slick-font-family;
@@ -98,6 +101,14 @@ $slick-opacity-not-active: 0.25 !default;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
+}
+.slick-arrow{
+  &.slick-disabled{
+    opacity: 0.3;
+    &:before {
+        opacity: $slick-opacity-not-active;
+    }
+  }
 }
 
 .slick-prev {

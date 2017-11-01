@@ -11,8 +11,8 @@ include 'templates/header.php';
             <div class="media-left media-middle">
               <div class="banner-caption caption-form">
                 <h1>
-                  <i>Pinjaman pelancar cash flow
-                  bagi pebisnis pintar</i>
+                  Pinjaman pelancar cash flow
+                  bagi pebisnis pintar
                 </h1>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae porttitor quam.
@@ -166,28 +166,31 @@ include 'templates/header.php';
           </div>
           <div class="col-xs-12 col-md-5">
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-              <div class="accordion-numbering">
-                <span class="number-item active">
-                  1
-                </span>
+              <div class="panel panel accordion-numbering">
+
                 <h4 class="panel-title">
                   <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="accordion-btn">
                     <strong>Mengajukan pinjaman online dengan jaminan invoice</strong>
+                    <span class="number-item">
+                      1
+                    </span>
                   </a>
                 </h4>
                 <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+
                   <p>
                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
                   </p>
                 </div>
               </div>
-              <div class="accordion-numbering">
-                <span class="number-item">
-                  2
-                </span>
+              <div class="panel accordion-numbering">
+
                 <h4 class="panel-title">
                   <a class="collapsed accordion-btn" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                     <strong>Analisis &amp; <br />persetujuan pinjaman</strong>
+                    <span class="number-item">
+                      2
+                    </span>
                   </a>
                 </h4>
                 <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
@@ -196,13 +199,14 @@ include 'templates/header.php';
                   </p>
                 </div>
               </div>
-              <div class="accordion-numbering">
-                <span class="number-item">
-                  3
-                </span>
+              <div class="panel accordion-numbering">
+
                 <h4 class="panel-title">
                   <a class="collapsed accordion-btn" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     <strong>Pencairan <br />pinjaman</strong>
+                    <span class="number-item">
+                      3
+                    </span>
                   </a>
                 </h4>
                 <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
@@ -211,13 +215,14 @@ include 'templates/header.php';
                   </p>
                 </div>
               </div>
-              <div class="accordion-numbering">
-                <span class="number-item">
-                  4
-                </span>
+              <div class="panel accordion-numbering">
+
                 <h4 class="panel-title">
                   <a class="collapsed accordion-btn" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapseThree">
                     <strong>Pembayaran <br />pinjaman</strong>
+                    <span class="number-item">
+                      4
+                    </span>
                   </a>
                 </h4>
                 <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">

@@ -11,7 +11,7 @@ include 'templates/header.php';
             <div class="media-left media-middle">
               <div class="banner-caption caption-form">
                 <h1>
-                  <i>Perbuat lebih banyak hal dengan uang Anda</i>
+                  Perbuat lebih banyak hal dengan uang Anda
                 </h1>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae porttitor quam.
@@ -444,13 +444,14 @@ include 'templates/header.php';
           </div>
           <div class="col-xs-12 col-md-5">
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-              <div class="accordion-numbering">
-                <span class="number-item active">
-                  1
-                </span>
+              <div class="panel accordion-numbering">
+
                 <h4 class="panel-title">
                   <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="accordion-btn">
                     <strong>Deposit<br />dana</strong>
+                    <span class="number-item">
+                      1
+                    </span>
                   </a>
                 </h4>
                 <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
@@ -459,13 +460,14 @@ include 'templates/header.php';
                   </p>
                 </div>
               </div>
-              <div class="accordion-numbering">
-                <span class="number-item">
-                  2
-                </span>
+              <div class="panel accordion-numbering">
+
                 <h4 class="panel-title">
                   <a class="collapsed accordion-btn" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                     <strong>Melakukan<br />pendanaan</strong>
+                    <span class="number-item">
+                      2
+                    </span>
                   </a>
                 </h4>
                 <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
@@ -474,13 +476,14 @@ include 'templates/header.php';
                   </p>
                 </div>
               </div>
-              <div class="accordion-numbering">
-                <span class="number-item">
-                  3
-                </span>
+              <div class="panel accordion-numbering">
+
                 <h4 class="panel-title">
                   <a class="collapsed accordion-btn" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     <strong>Menerima<br />pelunasan pinjaman</strong>
+                    <span class="number-item">
+                      3
+                    </span>
                   </a>
                 </h4>
                 <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
