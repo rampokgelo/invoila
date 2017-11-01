@@ -358,7 +358,7 @@ include 'templates/header.php';
 
                <div>
                  <h3 class="font-heading"><span class="text-secondary">Daftar<br />Pendanaan Diproses</span></h2>
-                 <div class="table-responsive margbot">
+                 <div class="table-responsive table-shadow margbot">
                    <table class="table table-striped">
                      <thead>
                        <tr>
