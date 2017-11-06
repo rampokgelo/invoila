@@ -169,65 +169,56 @@ include 'templates/header.php';
               <div class="panel panel accordion-numbering">
 
                 <h4 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="accordion-btn">
-                    <strong>Mengajukan pinjaman online dengan jaminan invoice</strong>
-                    <span class="number-item">
-                      1
-                    </span>
-                  </a>
+                  <strong>Mengajukan pinjaman online dengan jaminan invoice</strong>
+                  <span class="number-item">
+                    1
+                  </span>
                 </h4>
                 <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-
                   <p>
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
                   </p>
                 </div>
               </div>
               <div class="panel accordion-numbering">
 
                 <h4 class="panel-title">
-                  <a class="collapsed accordion-btn" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                    <strong>Analisis &amp; <br />persetujuan pinjaman</strong>
-                    <span class="number-item">
-                      2
-                    </span>
-                  </a>
+                  <strong>Analisis &amp; persetujuan pinjaman</strong>
+                  <span class="number-item">
+                    2
+                  </span>
                 </h4>
-                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
                   <p>
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
                   </p>
                 </div>
               </div>
               <div class="panel accordion-numbering">
 
                 <h4 class="panel-title">
-                  <a class="collapsed accordion-btn" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    <strong>Pencairan <br />pinjaman</strong>
-                    <span class="number-item">
-                      3
-                    </span>
-                  </a>
+                  <strong>Pencairan pinjaman</strong>
+                  <span class="number-item">
+                    3
+                  </span>
                 </h4>
-                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
                   <p>
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                   </p>
                 </div>
               </div>
               <div class="panel accordion-numbering">
 
                 <h4 class="panel-title">
-                  <a class="collapsed accordion-btn" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapseThree">
-                    <strong>Pembayaran <br />pinjaman</strong>
-                    <span class="number-item">
-                      4
-                    </span>
-                  </a>
+                  <strong>Pembayaran pinjaman</strong>
+                  <span class="number-item">
+                    4
+                  </span>
                 </h4>
-                <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div id="collapse4" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
                   <p>
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    Nihil anim keffiyeh helvetica, craft beer labore wes farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                   </p>
                 </div>
               </div>

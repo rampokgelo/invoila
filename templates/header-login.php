@@ -12,7 +12,7 @@
     <body>
 
       <nav class="nav-main navbar navbar-default navbar-fixed-top">
-        <div class="container wrapper-nav-main">
+        <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed sidenav-toggle">
               <!-- <span class="sr-only">Toggle navigation</span> -->
@@ -23,6 +23,21 @@
             <a class="navbar-brand" href="#"><img src="assets/images/invoila-logo.png" /></a>
           </div>
           <div class="navbar-collapse sidenav-menu">
+            <ul class="nav navbar-nav navbar-right nav-login visible-lg">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PT Iinvelli <span class="caret"></span></a>
+                <div class="dropdown-menu">
+                  <ul>
+                    <li><a href="#">Profil</a></li>
+                    <li><a href="#">Pendanaan</a></li>
+                    <li><a href="#">Deposit Dana</a></li>
+                    <li><a href="#">Penarikan Dana</a></li>
+                    <li><a href="#">Mutasi</a></li>
+                    <li><a href="#">Keluar</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
             <ul class="nav navbar-nav navbar-right">
               <li><a href="index.php" class="active">Beranda</a></li>
               <li><a href="pinjambisnis.php" class="">Pinjaman Bisnis </a></li>
@@ -32,16 +47,23 @@
               <li><a href="faq.php" class="">FAQ</a></li>
               <li><a href="tentangkami.php" class="">Tentang Kami</a></li>
               <li class="visible-lg"><span class="divider"></span></li>
-              <li class="visible-lg">
-                <button type="button" class="btn btn-primary navbar-btn">Masuk &sol; Daftar</button>
+            </ul>
+
+            <!-- MOBILE MENU -->
+            <ul class="nav navbar-nav navbar-right nav-login-m visible-xs">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PT Iinvelli <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Profil</a></li>
+                  <li><a href="#">Pendanaan</a></li>
+                  <li><a href="#">Deposit Dana</a></li>
+                  <li><a href="#">Penarikan Dana</a></li>
+                  <li><a href="#">Mutasi</a></li>
+                  <li><a href="#">Keluar</a></li>
+                </ul>
+
               </li>
             </ul>
-          </div>
-        </div>
-        <div class="nav-signup-m">
-          <div class="container">
-              <div class="divider-nav"></div>
-              <button type="button" class="btn btn-primary btn-block">Masuk &sol; Daftar</button>
           </div>
         </div>
 

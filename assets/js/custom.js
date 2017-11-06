@@ -5,8 +5,9 @@ $(document).ready(function() {
   });
   $('.banner-slider').slick({
     dots: true,
-    infinite: false,
-    speed: 300,
+    infinite: true,
+    autoplay: true,
+    speed: 400,
     slidesToShow: 1,
     slidesToScroll: 1,
     prevArrow: $('.prev-hero'),
@@ -39,8 +40,9 @@ $(document).ready(function() {
   });
   $('.testi-carousel').slick({
     dots: true,
-    infinite: false,
-    speed: 300,
+    autoplay: true,
+    infinite: true,
+    speed: 400,
     slidesToShow: 1,
     slidesToScroll: 1,
     prevArrow: $('.prev-testi'),

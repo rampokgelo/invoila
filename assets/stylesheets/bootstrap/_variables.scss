@@ -19,6 +19,7 @@ $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
 $brand-primary:         #FE8B0F !default; // #337ab7
 $brand-primary-lighten:  #FEF8EF !default;
 $brand-primary-light:  #FFC583 !default;
+$brand-primary-alpha:         rgba(254,139,15,.8) !default;
 
 $brand-secondary:         #18375C !default;
 $brand-secondary-alpha:         rgba(24,55,92,.8) !default;

@@ -8,7 +8,8 @@ include 'templates/header.php';
       <div class="slider-item banner-sm" style="background-image:url(assets/images/banner-syarat.jpg);"> </div>
   </div>
 
-  <div class="tab-faq">
+  <!-- DESKTOP CONTENT -->
+  <div class="tab-faq hidden-xs">
     <div class="container container-nav-faq">
       <ul class="nav nav-tabs nav-justified tab-faq-parent" role="tablist">
         <li class="active"><a href="#syarat" role="tab" data-toggle="tab">Syarat &amp; Ketentuan Umum</a></li>
@@ -31,6 +32,7 @@ include 'templates/header.php';
          <div class="bg-primary-lighten">
            <div class="container">
              <div class="container-body">
+
                <div class="row">
                  <div class="col-xs-12 col-md-5">
                    <ul class="nav nav-tabs nav-stacked nav-tabs-list" role="tablist">
@@ -224,6 +226,7 @@ include 'templates/header.php';
                    </div>
                  </div>
                </div>
+
              </div>
            </div>
          </div>
@@ -243,6 +246,12 @@ include 'templates/header.php';
 
      </div>
   </div>
+
+  <!-- MOBILE CONTENT -->
+  <?php
+  include 'faq-mobile.php';
+  ?>
+
 
 </div>
 
