@@ -766,6 +766,120 @@
   }
 }
 
+
+// @keyframes shrink {
+//     0% {
+//         color: green;
+//         transform: scale(2);
+//     }
+//
+//     100% {
+//         transform: scale(1);
+//         color: grey;
+//     }
+// }
+//
+// @keyframes grow {
+//     0% {
+//         transform: scale(1);
+//         color: grey;
+//     }
+//
+//     100% {
+//         transform: scale(2);
+//         color: green;
+//     }
+// }
+// @keyframes alphacolor {
+//     0% {
+//         opacity: 1;
+//     }
+//
+//     100% {
+//         opacity: .3;
+//     }
+// }
+// @keyframes fullcolor {
+//     0% {
+//         opacity: 1;
+//     }
+//
+//     100% {
+//         opacity:.3;
+//     }
+// }
+
+/* $. Classes
+\*----------------------------------------------------------------*/
+
+// .animate {
+//     transform: translate3d(0,0,0);
+//     perspective: 1000;
+//     filter: blur(0);
+//     animation-iteration-count: 1;
+//     animation-fill-mode: forwards;
+//     transform-origin: center left;
+//
+// }
+// .animate--alphacolor {
+//     animation-duration: 1s;
+//     animation-name: alphacolor;
+//     animation-timing-function: 'linear';
+// }
+//
+// .animate--fullcolor {
+//     animation-duration: 1s;
+//     animation-timing-function: 'linear';
+//     animation-name: grow;
+// }
+//
+//
+// .hero_title .slick-slide{
+//     overflow: hidden;
+//         padding: 20px 0;
+//
+// }
+//
+// .hero_title [aria-hidden]{
+//     transition: 1s;
+// }
+/*
+.hero__title [aria-hidden="false"]{
+    opacity: 1;
+}
+
+.hero__title [aria-hidden="true"] {
+    opacity: 0;
+}
+ */
+// .hero_title .slick-current > div{
+//     box-sizing: border-box;
+//     display: block;
+//     @extend .animate--fullcolor;
+// }
+//
+// .hero_title .slick-current + .slick-slide > div{
+//     @extend .animate--alphacolor;
+// }
+
+// .no-js .hero_title .slick-dupe:nth-child(2) > div{
+//     //padding: 1em;
+//     @extend .animate--alphacolor;
+// }
+
+
+
+// .hero__title-misc{
+//   display: block;
+//   font-size: 24px;
+//   font-weight: bold;
+//   color: grey;
+// }
+.cara-carousel{
+  li{
+    opacity: .3;
+  }
+}
 footer {
   background-color: $gray-invoila;
   color: white;

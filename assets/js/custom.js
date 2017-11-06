@@ -128,4 +128,64 @@ $(document).ready(function() {
   // });
 
   $('.partner-logo').jScrollPane();
+
+  // var maxHeight = -1;
+  // $('.slick-slide').each(function() {
+  //   if ($(this).height() > maxHeight) {
+  //     maxHeight = $(this).height();
+  //   }
+  // });
+  // $('.slick-slide').each(function() {
+  //   if ($(this).height() < maxHeight) {
+  //     $(this).css('margin', Math.ceil((maxHeight-$(this).height())/2) + 'px 0');
+  //   }
+  // });
+  // Get titles from the DOM
+  // var caradana = $("#caraPendanaan");
+  // var carakonten = caradana.find("slick-active");
+  //
+  // if (caradana.length) {
+  //
+  //   caradana.slick({
+  //     autoplay: true,
+  //     arrows: false,
+  //     dots: false,
+  //     slidesToShow: 3,
+  //     //centerPadding: "10px",
+  //     draggable: false,
+  //     infinite: true,
+  //     pauseOnHover: false,
+  //     swipe: false,
+  //     touchMove: false,
+  //     vertical: true,
+  //     speed: 1000,
+  //     autoplaySpeed: 5000,
+  //     useTransform: true,
+  //     //cssEase: 'cubic-bezier(0.645, 0.045, 0.355, 1.000)',
+  //     adaptiveHeight: true
+  //   });
+  //
+  //   // On init
+  //   $(".slick-dupe").each(function(index, el) {
+  //     $("#caraPendanaan").slick('slickAdd', "<div>" + el.innerHTML + "</div>");
+  //   });
+  //
+  //   // Manually refresh positioning of slick
+  //   caradana.slick('slickPlay');
+  // };
+  var i = 0,
+  delay = 2000,
+  animate = 300;
+  function animateList(){
+  var imax = $("ul#listCara li").length -1;
+  $("ul#listCara li:eq(" + i + ")")
+  .animate({"opacity" : "1"}, animate)
+  .animate({"opacity" : "1"}, delay)
+  .animate({"opacity" : ".3"}, animate, function(){
+    (i == imax) ? i=0 : i++;
+    animateList();
+  });
+
+  };
+  animateList();
 });
