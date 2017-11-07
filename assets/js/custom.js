@@ -48,6 +48,19 @@ $(document).ready(function() {
     prevArrow: $('.prev-testi'),
     nextArrow: $('.next-testi')
   });
+
+
+  var slickRujuk = {
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: true,
+    //swipe: false,
+    asNavFor: '.rujukslide',
+    prevArrow: $('.prev-rujuk'),
+    nextArrow: $('.next-rujuk')
+  };
+  $('.rujukpict').slick(slickRujuk);
+  $('.rujukcaption').slick(slickRujuk);
   // // Hide Header on on scroll down
   // var didScroll;
   // var lastScrollTop = 0;
@@ -173,19 +186,45 @@ $(document).ready(function() {
   //   // Manually refresh positioning of slick
   //   caradana.slick('slickPlay');
   // };
-  var i = 0,
-  delay = 2000,
-  animate = 300;
-  function animateList(){
-  var imax = $("ul#listCara li").length -1;
-  $("ul#listCara li:eq(" + i + ")")
-  .animate({"opacity" : "1"}, animate)
-  .animate({"opacity" : "1"}, delay)
-  .animate({"opacity" : ".3"}, animate, function(){
-    (i == imax) ? i=0 : i++;
-    animateList();
+  // var i = 0,
+  // delay = 2000,
+  // animate = 300;
+  // function animateList(){
+  // var imax = $("ul#listCara li").length -1;
+  // $("ul#listCara li:eq(" + i + ")")
+  // .animate({"opacity" : "1"}, animate)
+  // .animate({"opacity" : "1"}, delay)
+  // .animate({"opacity" : ".3"}, animate, function(){
+  //   (i == imax) ? i=0 : i++;
+  //   animateList();
+  // });
+  //
+  // };
+  // animateList();
+  $('#listCara').waypoint(function() {
+    $('.cara-carousel li').each(function(i) {
+      var $li = $(this);
+      setTimeout(function() {
+        $li.addClass('slide-in');
+      }, i * 1200);
+    });
+  }, {
+    offset: '100%'
   });
 
-  };
-  animateList();
+  // var i = 0;
+  // $('#listCara').each(function() {
+  //   //var hide_after = $(this).children().length;
+  //   $(this).children().each(function(counter) {
+  //     $(this)
+  //       .delay(++i * 1500)
+  //       .animate({
+  //         left: 0,
+  //         opacity: 1
+  //       });
+  //     //.delay((hide_after - counter) * 2000);
+  //     //.animate({left:'100%', opacity: 0});
+  //   });
+  // });
+
 });

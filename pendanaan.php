@@ -479,7 +479,7 @@ include 'templates/header.php';
               </div>
 
             </div> -->
-            <ul id="listCara" class="cara-carousel list-unstyled">
+            <ul  class="cara-carousel list-unstyled" id="listCara">
               <li>
                 <div class="panel accordion-numbering">
                   <h4 class="panel-title">

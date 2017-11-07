@@ -58,13 +58,65 @@ include 'templates/header.php';
         <h3 class="font-heading">Cara <span class="text-secondary">Kerja</span></h3>
         <div class="row">
           <div class="col-xs-12 col-md-7">
-            <div class="embed-responsive embed-responsive-4by3">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UFuCnTvTdiA" frameborder="0" allowfullscreen></iframe>
+            <div class="rujukpict rujukslide">
+              <div class="rujuk-item-pict">
+                <img class="img-responsive" src="assets/images/rujuk-sample-slide.jpg"/>
+                <span class="number-item">1</span>
+              </div>
+              <div class="rujuk-item-pict">
+                <img class="img-responsive" src="assets/images/rujuk-sample-slide.jpg"/>
+                <span class="number-item">2</span>
+              </div>
+              <div class="rujuk-item-pict">
+                <img class="img-responsive" src="assets/images/rujuk-sample-slide.jpg"/>
+                <span class="number-item">3</span>
+              </div>
+              <div class="rujuk-item-pict">
+                <img class="img-responsive" src="assets/images/rujuk-sample-slide.jpg"/>
+                <span class="number-item">4</span>
+              </div>
             </div>
-            <br />
           </div>
+
           <div class="col-xs-12 col-md-5">
-            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="rujukinfo">
+              <div class="rujukcaption rujukslide">
+
+                <div>
+                  <h5>Login ke akun INVOILA dan pilih menu “Perujuk”</h5>
+                  <p>
+                    <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae porttitor quam.</i>
+                  </p>
+                </div>
+
+                <div>
+                  <h5>Akses kode referral Anda pada dasbor “Perujuk”</h5>
+                  <p>
+                    <i>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</i>
+                  </p>
+                </div>
+
+                <div>
+                  <h5>Perkenalkan INVOILA kepada teman, keluarga, dan kolega Anda</h5>
+                  <p>
+                    <i>Nihiore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</i>
+                  </p>
+                </div>
+
+                <div>
+                  <h5>Hadiah uang tunai akan dikreditkan ke akun Anda pada akhir bulan</h5>
+                  <p>
+                    <i>Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</i>
+                  </p>
+                </div>
+
+              </div>
+              <div class="rujuknav">
+                <button type="button" class="btn btn-default prev-rujuk">Prev</button>
+                <button type="button" class="btn btn-default next-rujuk">Next</button>
+              </div>
+            </div>
+            <!-- <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
               <div class="accordion-numbering">
                 <span class="number-item active">
                   1
@@ -143,7 +195,7 @@ include 'templates/header.php';
                 </div>
               </div>
 
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
