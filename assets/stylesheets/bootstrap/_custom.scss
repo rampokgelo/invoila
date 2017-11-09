@@ -462,11 +462,11 @@
     padding-bottom: $grid-gutter-width /3;
   }
   @media (max-width: $screen-xs-max) {
-    overflow-x: scroll;
-    white-space: nowrap;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    // overflow-x: scroll;
+    // white-space: nowrap;
+    // position: relative;
+    // margin-left: auto;
+    // margin-right: auto;
     // &::-webkit-scrollbar {
     //     -webkit-appearance: none;
     //     width: 3px;
@@ -477,7 +477,10 @@
     //     -webkit-box-shadow: 0 0 1px rgba(255,255,255,.3);
     // }
     > img {
-      float: none;
+      //max-height: 25px;
+      padding-left: $grid-gutter-width /4;
+      padding-right: $grid-gutter-width /4;
+      padding-bottom: $grid-gutter-width /4;
     }
   }
 }

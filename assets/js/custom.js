@@ -129,7 +129,7 @@ $(document).ready(function() {
       setNavClass();
     }
 
-  }, 250);
+  }, 200);
 
 
   $("#ex8").slider({
@@ -140,7 +140,7 @@ $(document).ready(function() {
   //   $(this).parents('.accordion-numbering').find('.number-item').toggleClass('active');
   // });
 
-  $('.partner-logo').jScrollPane();
+  // $('.partner-logo').jScrollPane();
 
   // var maxHeight = -1;
   // $('.slick-slide').each(function() {
